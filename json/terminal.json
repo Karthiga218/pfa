@@ -1,0 +1,34 @@
+{
+  "fc_pfa_id": "226",
+  "borough": "MANHATTAN",
+  "box_nbr": "10309",
+  "subscriber_nm": "BWAY-524 BWAYCORP",
+  "bin": "1088782",
+  "street_address": "520 Broom st Manhattan",
+  "comp_name": "ADTNY - Tyco Fire ADT",
+  "aka": "ADT",
+  "comment": "Here's the test comment",
+  "terminals_list": [
+    {
+      "t": "123",
+      "term_type_cd": "CLE",
+      "building_flag": "E",
+      "terminal_loc": "Front of the building",
+      "terminal_descr": "Located at entrance"
+    },
+    {
+      "t": "232",
+      "term_type_cd": "CO",
+      "building_flag": "E",
+      "terminal_loc": "Back of the building",
+      "terminal_descr": "Located at entrance"
+    },
+    {
+      "t": "321",
+      "term_type_cd": "AUTOMATIC",
+      "building_flag": "O",
+      "terminal_loc": "Front of the building",
+      "terminal_descr": "Located at outside"
+    }
+  ]
+}

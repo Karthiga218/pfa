@@ -1,0 +1,33 @@
+{
+  "fc_pfa_id": "",
+  "borough": "",
+  "box_nbr": "",
+  "subscriber_nm": "",
+  "bin": "",
+  "street_address": "",
+  "comp_name": "",
+  "comment": "",
+  "terminals_list": [
+    {
+      "t": "1",
+      "term_type_cd": "",
+      "building_flag": "",
+      "terminal_loc": "",
+      "terminal_descr": ""
+    },
+    {
+      "t": "2",
+      "term_type_cd": "",
+      "building_flag": "",
+      "terminal_loc": "",
+      "terminal_descr": ""
+    },
+    {
+      "t": "3",
+      "term_type_cd": "",
+      "building_flag": "",
+      "terminal_loc": "",
+      "terminal_descr": ""
+    }
+  ]
+}
