@@ -1,0 +1,26 @@
+[
+  {
+    "lookup_type": "TERMINAL_TYPES",
+    "lookup_code": "AUTOMATIC",
+    "display_text": "AUTOMATIC",
+    "alt_display_text": "AUTOMATIC"
+  },
+  {
+    "lookup_type": "TERMINAL_TYPES",
+    "lookup_code": "CLE",
+    "display_text": "CLASS E/B",
+    "alt_display_text": "CLASS E/B"
+  },
+  {
+    "lookup_type": "TERMINAL_TYPES",
+    "lookup_code": "CO",
+    "display_text": "CO",
+    "alt_display_text": "CO"
+  },
+  {
+    "lookup_type": "TERMINAL_TYPES",
+    "lookup_code": "MANUAL",
+    "display_text": "MANUAL",
+    "alt_display_text": "MANUAL"
+  }
+]

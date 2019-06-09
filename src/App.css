@@ -1,0 +1,425 @@
+form label {
+  font-size: 0.8em;
+}
+.custom-control-label {
+  font-size: 1em;
+}
+.card-header {
+  background-color: #fff;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-left > img {
+  padding: 0px 15px 0 15px;
+  max-height: 70px;
+}
+
+.navbar-nav {
+  margin-left: 25px;
+}
+.tablecontainer {
+  margin-top: -48px;
+}
+.close {
+  opacity: 1;
+  font-weight: 900;
+  color: #000;
+}
+
+h6.card-header {
+  color: #000;
+  font-weight: 700;
+}
+.pagejumper {
+  display: none !important;
+}
+.tabtitle {
+  padding-bottom: 10px;
+}
+.card-header h4 {
+  padding: 10px 0px;
+}
+
+.bg-danger {
+  background-color: red !important;
+  height: 70px;
+}
+.navbar li {
+  height: 70px;
+  line-height: 70px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  line-height: 50px;
+  padding: 10px 20px;
+}
+
+.whitelogo h1 {
+  font-weight: 900;
+  color: #fff;
+  margin-top: 0.2em;
+  font-size: 2.5em;
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+.bootstrap-table .fixed-table-container .table {
+  margin-top: 10px;
+}
+
+li a {
+  background-color: red;
+}
+
+li a.active {
+  background-color: #b30000;
+}
+
+.search {
+  float: left !important;
+  margin: 10px 0px;
+}
+
+#search-bar-0 {
+  min-width: 300px;
+}
+/*
+table th {
+  text-align: center;
+}
+
+table td {
+  text-align: center;
+}
+*/
+
+.addnew {
+  float: right;
+}
+
+#pageDropDown {
+  color: #343a40;
+  background-color: white;
+  border-color: white;
+}
+
+#pageDropDown:focus {
+  box-shadow: none;
+}
+
+ul.pagination {
+  float: right;
+}
+
+ul.pagination li {
+  padding: 0 0 0 15px;
+}
+ul.pagination li a {
+  color: #343a40;
+}
+
+.react-bootstrap-table-pagination {
+  float: right;
+}
+
+.dropdown-menu a {
+  color: #343a40;
+  background-color: white;
+}
+
+hr {
+  display: none !important;
+}
+.react-bootstrap-table {
+  margin-top: 20px;
+}
+
+.react-bootstrap-table th {
+  text-align: center;
+}
+
+.demo-sorting-asc {
+}
+.demo-sorting-desc {
+}
+
+.navbar-nav {
+  float: left;
+  min-width: 300px;
+}
+
+.profilediv {
+  float: right;
+  min-width: 300px;
+}
+.navbar {
+  overflow: hidden;
+}
+
+.termstationtable {
+  margin-top: 20px;
+}
+.table-bordered th {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+/*
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid black;
+}
+*/
+.react-bootstrap-table th {
+  background-color: #999999;
+}
+/*
+.table-bordered > thead > tr > td,
+.table-bordered > thead > tr > th {
+  border: 2px solid black;
+}
+
+.ColNoPadding {
+  padding: 0;
+}
+.row > :first-child {
+  padding-left: 15px;
+  max-width: 150px;
+}
+
+.verifyBtn {
+  margin-top: 2em;
+  max-width: 100px;
+}
+
+#formGroupHNo {
+}
+.colHouseNo {
+  max-width: 75px;
+}
+.ColPadding {
+  padding: 0px 15px;
+}
+*/
+
+.Table__itemCount {
+  /* margin-top: 10px; */
+  font-size: 14px;
+}
+
+.Table__pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0px;
+}
+
+.Table__pageButton {
+  font-size: 15px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.Table__pageButton:disabled {
+  cursor: not-allowed;
+  color: gray;
+}
+
+.Table__pageButton--active {
+  color: #45b3e3;
+  font-weight: bold;
+}
+
+.ReactTable {
+  border: 0;
+}
+.ReactTable .rt-table {
+  border: 1px solid #000;
+}
+.ReactTable .rt-thead .rt-th,
+.ReactTable .rt-thead .rt-td {
+  padding: 10px;
+}
+
+.ReactTable .rt-thead.-header {
+  box-shadow: none;
+  background-color: #2e6da4;
+  padding: 0px;
+  color: #fff;
+}
+.ReactTable .rt-th .rt-resizable-header {
+  padding: 10px 0px;
+}
+.ReactTable .-header .rt-th::before {
+  border-color: #fff;
+  content: "▼";
+  float: left;
+  padding-right: 5px;
+  text-align: left;
+}
+.ReactTable .rt-thead .rt-th.-sort-asc,
+.ReactTable .rt-thead .rt-td.-sort-asc {
+  box-shadow: none;
+  text-decoration: none;
+}
+.ReactTable .rt-thead .rt-tr {
+  text-align: left;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-asc::before,
+.ReactTable .rt-thead .rt-td.-sort-asc {
+  box-shadow: none !important;
+  content: "▼";
+  float: left;
+  padding-right: 5px;
+}
+.ReactTable .rt-thead .rt-th.-sort-desc::before,
+.ReactTable .rt-thead .rt-td.-sort-desc {
+  box-shadow: none !important;
+  content: "▲";
+  padding-right: 5px;
+  float: left;
+}
+
+.btn-primary {
+  background-color: #2e6da4;
+}
+.btn-primary:hover {
+  background-color: #2e6da4;
+}
+.ReactTable .rt-thead .rt-th,
+.ReactTable .rt-thead .rt-td {
+  border-color: #fff;
+}
+.ReactTable .rt-thead -header {
+  padding: 0px;
+}
+.ReactTable .rt-tr {
+  padding: 0px;
+}
+.ReactTable .rt-thead .rt-th.-sort-desc,
+.ReactTable .rt-thead .rt-td.-sort-desc {
+  box-shadow: none;
+}
+.ReactTable .rt-thead.-filters {
+  border-bottom: 1px solid #000;
+}
+.ReactTable .rt-tbody .rt-th {
+  border-right: 1px solid #fff;
+}
+.ReactTable .rt-tbody .rt-td {
+  border-right: 1px solid #000;
+}
+.ReactTable .rt-thead .rt-th,
+.ReactTable .rt-thead .rt-td {
+  border-color: #fff;
+}
+.ReactTable .rt-thead.-filters .rt-th {
+  border-color: #000;
+}
+.ReactTable .rt-tbody .rt-tr-group {
+  border-color: #000;
+}
+
+.rt-tbody {
+  text-align: left;
+  cursor: pointer;
+}
+
+.actionContainer {
+  height: 70px;
+}
+
+.actionContainer button {
+  float: right;
+  margin-top: 10px;
+}
+button a:hover {
+  text-decoration: none;
+}
+
+.rowsPerPage {
+  padding: 0 10px;
+}
+
+.ReactTable .-pagination {
+  padding: 3px 0px;
+  box-shadow: none;
+}
+
+.Table__nextPageWrapper button {
+  padding-right: 0px;
+}
+.Table__pageButton--active {
+  color: #000;
+}
+
+.reactContainer {
+  border: 1px solid #999;
+}
+.reactContainer h4 {
+  padding: 20px;
+}
+.reactContainer .title {
+  border-bottom: 1px solid #999;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.rowform {
+  width: 100%;
+  float: left;
+}
+
+#terminalnumber {
+  width: 70%;
+  display: inline;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.rowform button {
+  display: inline;
+  width: 30%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-top: -3px;
+  min-width: 80px;
+}
+
+.ReactTable a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    margin: 3.75rem auto;
+    max-width: 575px;
+  }
+}
+
+.commentsHeader {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  background-color: #2e6da4;
+  color: #fff;
+}
+.commentsHeader .author {
+  float: left;
+}
+.commentsHeader .cTime {
+  float: right;
+}
+
+modal p {
+  clear: both;
+  padding: 10px 0px;
+}
+.img-responsive {
+  padding-left: 0px;
+}

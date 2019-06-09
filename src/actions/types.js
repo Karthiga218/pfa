@@ -1,0 +1,9 @@
+export const GET_TERMINALS = "GET_TERMINALS";
+export const ADD_TERMINAL = "ADD_TERMINAL";
+export const EDIT_TERMINAL = "EDIT_TERMINAL";
+
+export const GET_COMPANIES = "GET_COMPANIES";
+export const EDIT_COMPANY = "EDIT_COMPANY";
+export const ADD_COMPANY = "ADD_COMPANY";
+
+export const GET_TERMINAL_TYPES = "GET_TERMINAL_TYPES";
