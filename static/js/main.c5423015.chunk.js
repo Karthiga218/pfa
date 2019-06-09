@@ -611,7 +611,8 @@
                           switch ((e.prev = e.next)) {
                             case 0:
                               return (
-                                (e.next = 2), P.a.get("json/terminals.json")
+                                (e.next = 2),
+                                P.a.get("/pfa/json/terminals.json")
                               );
                             case 2:
                               (a = e.sent),
@@ -925,7 +926,8 @@
                         switch ((e.prev = e.next)) {
                           case 0:
                             return (
-                              (e.next = 2), P.a.get("/json/terminal_types.json")
+                              (e.next = 2),
+                              P.a.get("/pfa/json/terminal_types.json")
                             );
                           case 2:
                             (a = e.sent),
@@ -1544,7 +1546,8 @@
                         switch ((e.prev = e.next)) {
                           case 0:
                             return (
-                              (e.next = 2), P.a.get("/json/newterminal.json")
+                              (e.next = 2),
+                              P.a.get("/pfa/json/newterminal.json")
                             );
                           case 2:
                             (a = e.sent),
@@ -1770,7 +1773,8 @@
                           switch ((e.prev = e.next)) {
                             case 0:
                               return (
-                                (e.next = 2), P.a.get("json/companies.json")
+                                (e.next = 2),
+                                P.a.get("/pfa/json/companies.json")
                               );
                             case 2:
                               (a = e.sent),
@@ -3045,7 +3049,7 @@
                             return (
                               (t.next = 2),
                               P.a.get(
-                                "/json/company.json?cs_comp_code=".concat(e)
+                                "/pfa/json/company.json?cs_comp_code=".concat(e)
                               )
                             );
                           case 2:
@@ -3827,7 +3831,7 @@
                           case 0:
                             return (
                               (t.next = 2),
-                              P.a.get("/json/terminal.json?ref=".concat(e))
+                              P.a.get("/pfa/json/terminal.json?ref=".concat(e))
                             );
                           case 2:
                             (n = t.sent),
