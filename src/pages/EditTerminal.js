@@ -205,6 +205,7 @@ class EditTerminal extends Component {
                       id="monitered_name"
                       placeholder="Monotored Name"
                       value={subscriber_nm}
+                      onChange={this.changeState}
                     />
                   </FormGroup>
                 </Col>
@@ -219,6 +220,7 @@ class EditTerminal extends Component {
                       placeholder="Zip Code"
                       style={{ width: "125px" }}
                       value={zip_code}
+                      onChange={this.changeState}
                     />
                   </FormGroup>
                 </Col>

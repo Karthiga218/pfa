@@ -8,7 +8,10 @@ const Header = props => {
         <div className="container">
           <div className="  navbar-collapse">
             <a className="navbar-left">
-              <img className="img-responsive" src="/images/logo.png" />
+              <img
+                className="img-responsive"
+                src={process.env.REACT_APP_root_dir + "/images/logo.png"}
+              />
             </a>
             <a className="navbar-left whitelogo">
               <h1>PFA</h1>
