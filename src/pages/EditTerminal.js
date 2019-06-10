@@ -128,7 +128,8 @@ class EditTerminal extends Component {
       terminal1,
       terminal2,
       terminal3,
-      comment
+      comment,
+      zip_code
     } = nextProps.terminal;
 
     this.setState({
@@ -146,7 +147,8 @@ class EditTerminal extends Component {
       street_address,
       comp_name,
       terminals_list,
-      comment
+      comment,
+      zip_code
     });
   }
   render() {
@@ -162,7 +164,8 @@ class EditTerminal extends Component {
       terminal2,
       terminal3,
       terminals_list,
-      comment
+      comment,
+      zip_code
     } = this.state;
 
     return (
@@ -178,8 +181,7 @@ class EditTerminal extends Component {
                   <th>Address</th>
                   <th>Box</th>
                   <th>Bin</th>
-                  <th>Company</th>
-                  <th>Premise</th>
+                  <th>Monitoring Company</th>
                 </tr>
               </thead>
               <tbody>
@@ -188,18 +190,61 @@ class EditTerminal extends Component {
                   <td>{box_nbr}</td>
                   <td>{bin}</td>
                   <td>{comp_name}</td>
-                  <td>
-                    {subscriber_nm}
-                    <i
-                      title="Edit"
-                      style={{ float: "right", cursor: "pointer" }}
-                      className="fas fa-pencil-alt"
-                    />
-                  </td>
                 </tr>
               </tbody>
             </Table>
+
             <Form>
+              <Row>
+                <Col md={6}>
+                  <FormGroup>
+                    <Label for="boxno">Monitored Name</Label>
+                    <Input
+                      type="text"
+                      name="monitered_name"
+                      id="monitered_name"
+                      placeholder="Monotored Name"
+                      value={subscriber_nm}
+                    />
+                  </FormGroup>
+                </Col>
+
+                <Col md={2}>
+                  <FormGroup>
+                    <Label for="boxno">Zip Code</Label>
+                    <Input
+                      type="text"
+                      name="zipcode"
+                      id="zipcode"
+                      placeholder="Zip Code"
+                      style={{ width: "125px" }}
+                      value={zip_code}
+                    />
+                  </FormGroup>
+                </Col>
+
+                <Col md={4}>
+                  <FormGroup>
+                    <Label for="boxno">
+                      Building Dominant Occupancy Classification
+                    </Label>
+                    <Input
+                      style={{
+                        borderRadius: "0px"
+                      }}
+                      type="select"
+                      name="occ_class_name"
+                      id="occ_class_name"
+                      value={this.state.comp_name}
+                      onChange={this.changeState}
+                    >
+                      <option>Select occupancy classification</option>
+
+                      <option>Factory & Industrial</option>
+                    </Input>
+                  </FormGroup>
+                </Col>
+              </Row>
               <div id="editSection" style={{ display: "none" }}>
                 <Row>
                   <Col md={2} style={{ paddingRight: "0px" }}>

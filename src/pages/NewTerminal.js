@@ -14,7 +14,8 @@ import {
   FormGroup,
   Label,
   Input,
-  Badge
+  Badge,
+  Table
 } from "reactstrap";
 import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 
@@ -216,37 +217,55 @@ class NewTerminal extends Component {
                   </FormGroup>{" "}
                 </Col>
 
-                <Col md={2}>
+                <Col md={1}>
                   <FormGroup>
-                    <Label for="boxno">Box Number</Label>
+                    <Label for="boxno">Zip Code</Label>
                     <Input
                       type="text"
-                      name="boxno"
-                      id="boxno"
-                      placeholder="Box Number"
-                      disabled
+                      name="zipcode"
+                      id="zipcode"
+                      placeholder="Zip Code"
+                      style={{ width: "125px" }}
                     />
                   </FormGroup>
                 </Col>
 
-                <Col md={1}>
-                  <FormGroup>
-                    <Label for="houseNo">BIN</Label>
-                    <Input
-                      type="text"
-                      name="bin"
-                      id="bin"
-                      placeholder="BIN"
-                      disabled
-                    />
-                  </FormGroup>
+                <Col md={2} style={{ paddingLeft: "60px" }}>
+                  <Table bordered>
+                    <thead>
+                      <tr>
+                        <th style={{ width: "90px", padding: "5px 6px" }}>
+                          Box
+                        </th>
+                        <th style={{ width: "75px", padding: "5px 6px" }}>
+                          Bin
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div
+                            style={{ width: "90px", padding: "3px 0px" }}
+                            className="boxTd"
+                          />
+                        </td>
+                        <td>
+                          <div
+                            style={{ width: "75px", padding: "3px 0px" }}
+                            className="boxTd"
+                          />
+                        </td>
+                      </tr>
+                    </tbody>
+                  </Table>
                 </Col>
               </Row>
 
               <Row>
-                <Col md={5}>
+                <Col md={4}>
                   <FormGroup>
-                    <Label for="company">Company</Label>
+                    <Label for="company">Monitoring Company</Label>
                     <Input
                       style={{
                         borderRadius: "0px"
@@ -257,7 +276,7 @@ class NewTerminal extends Component {
                       value={this.state.comp_name}
                       onChange={this.changeState}
                     >
-                      <option>Select Company</option>
+                      <option>Select monitoring company</option>
 
                       <option>Statewide Fire Corporation</option>
                       <option>ADT Security Services</option>
@@ -268,41 +287,42 @@ class NewTerminal extends Component {
                   </FormGroup>
                 </Col>
 
-                <Col md={2}>
+                <Col md={4}>
                   <FormGroup>
-                    <Label for="aka">AKA</Label>
+                    <Label for="aka">Monitored Name</Label>
+                    <Input
+                      style={{
+                        borderRadius: "0px"
+                      }}
+                      type="text"
+                      name="aka"
+                      id="aka"
+                      value={this.state.aka}
+                      onChange={this.changeState}
+                      placeholder="Enter monitored name"
+                    />
+                  </FormGroup>
+                </Col>
+
+                <Col md={4}>
+                  <FormGroup>
+                    <Label for="boxno">
+                      Building Dominant Occupancy Classification
+                    </Label>
                     <Input
                       style={{
                         borderRadius: "0px"
                       }}
                       type="select"
-                      name="aka"
-                      id="aka"
-                      value={this.state.aka}
+                      name="occ_class_name"
+                      id="occ_class_name"
+                      value={this.state.comp_name}
                       onChange={this.changeState}
                     >
-                      <option>Select AKA</option>
+                      <option>Select occupancy classification</option>
 
-                      <option>SFC</option>
-                      <option>ADT</option>
-                      <option>NYADT</option>
-                      <option>AFA</option>
-                      <option>DCS</option>
+                      <option>Factory & Industrial</option>
                     </Input>
-                  </FormGroup>
-                </Col>
-
-                <Col md={5}>
-                  <FormGroup>
-                    <Label for="boxno">Premise</Label>
-                    <Input
-                      type="text"
-                      name="street_address"
-                      id="street_address"
-                      placeholder="Premise"
-                      value={this.state.street_address}
-                      onChange={this.changeState}
-                    />
                   </FormGroup>
                 </Col>
               </Row>

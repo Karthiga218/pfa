@@ -78,7 +78,7 @@ class CompanyList extends Component {
         filterAll: true
       },
       {
-        Header: "ANNIV.",
+        Header: "INSP.DATE",
         accessor: "cs_anniversary_date",
         filterMethod: (filter, rows) =>
           matchSorter(rows, filter.value, { keys: ["cs_anniversary_date"] }),

@@ -8,6 +8,7 @@
   "comp_name": "ADTNY - Tyco Fire ADT",
   "aka": "ADT",
   "comment": "Here's the test comment",
+  "zip_code": "11201-2911",
   "terminals_list": [
     {
       "t": "123",

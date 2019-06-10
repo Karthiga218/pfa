@@ -69,7 +69,7 @@ class TerminalAssignments extends Component {
         filterAll: true
       },
       {
-        Header: "PREMISE",
+        Header: "MONITORED PREMISE",
         accessor: "address",
         filterMethod: (filter, rows) =>
           matchSorter(rows, filter.value, { keys: ["address"] }),

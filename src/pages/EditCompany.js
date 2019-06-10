@@ -15,7 +15,8 @@ import {
   Label,
   Input,
   Badge,
-  Table
+  Table,
+  FormFeedback
 } from "reactstrap";
 import { connect } from "react-redux";
 
@@ -168,20 +169,23 @@ class EditCompany extends Component {
                           //borderRadius: "0px"
                         }
                       }
+                      error="this is error"
                       value={cs_short_name}
                       onChange={this.changeState}
+                      invalid={false}
                     />
+                    <FormFeedback>This is ok</FormFeedback>
                   </FormGroup>
                 </Col>
 
                 <Col md={3} style={{}}>
                   <FormGroup>
-                    <Label for="aka">Anniversary Date</Label>
+                    <Label for="aka">Inspection Date</Label>
                     <Input
                       type="date"
                       name="cs_anniversary_date"
                       id="cs_anniversary_date"
-                      placeholder="Anniversary Date"
+                      placeholder="Inspection Date"
                       style={
                         {
                           //borderRadius: "0px"

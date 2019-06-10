@@ -190,7 +190,7 @@ class TerminalCard extends Component {
               />
               <CustomInput
                 type="radio"
-                label="Other Location"
+                label="Partial"
                 name={"loc2." + t}
                 id={"loc2." + t}
                 inline
@@ -201,7 +201,7 @@ class TerminalCard extends Component {
           </FormGroup>
 
           <FormGroup>
-            <Label for="location">Location (Optional)</Label>
+            <Label for="location">Area of Protection (Optional)</Label>
             <Input
               type="text"
               name="terminal_loc"
